@@ -1,7 +1,7 @@
 name: Playwright CI
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 jobs:
   test:
     runs-on: ubuntu-latest # GitHub provides this Linux server for free

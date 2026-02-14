@@ -11,8 +11,8 @@ public class TestExample {
     private static final Object lock = new Object();
 
     // 2. Test-specific data must be ThreadLocal
-    private static final ThreadLocal<BrowserContext> threadContext = new ThreadLocal<>();
-    private static final ThreadLocal<Page> threadPage = new ThreadLocal<>();
+    private static ThreadLocal<BrowserContext> threadContext = new ThreadLocal<>();
+    private static ThreadLocal<Page> threadPage = new ThreadLocal<>();
 
     @BeforeAll
     static void launchBrowser() {

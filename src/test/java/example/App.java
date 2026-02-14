@@ -1,4 +1,4 @@
-package org.example;
+package example;
 
 import java.util.regex.Pattern;
 import com.microsoft.playwright.*;

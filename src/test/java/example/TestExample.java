@@ -1,4 +1,4 @@
-package org.example;
+package example;
 
 import com.microsoft.playwright.*;
 import org.junit.jupiter.api.*;

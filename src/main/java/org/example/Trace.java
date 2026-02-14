@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 
 
 public class Trace {
-    public static void main(String a[]) {
+    public static void main(String[] args) {
         try (Playwright playwright = Playwright.create()) {
             Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false).setSlowMo(500));
             BrowserContext browserContext = browser.newContext();

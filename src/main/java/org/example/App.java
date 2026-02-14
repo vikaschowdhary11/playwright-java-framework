@@ -6,8 +6,6 @@ import com.microsoft.playwright.options.AriaRole;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
-import java.nio.file.Paths;
-
 public class App {
     public static void main(String[] args) {
 //        Program1

@@ -21,9 +21,7 @@ public class Trace {
 
             browserContext.tracing().stop(new Tracing.StopOptions().setPath(Paths.get("trace.zip")));
 
-            page.close();
-            browserContext.close();
-            browser.close();
+
 
         }
     }

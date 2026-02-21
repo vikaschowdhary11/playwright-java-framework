@@ -1,0 +1,8 @@
+<div id="current-time" data-testid="current-time"></div>
+<script>
+  const renderTime = () => {
+    document.getElementById('current-time').textContent =
+        new Date().toLocaleString();
+  };
+  setInterval(renderTime, 1000);
+</script>

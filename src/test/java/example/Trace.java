@@ -20,9 +20,6 @@ public class Trace {
             page.navigate("https://playwright.dev");
 
             browserContext.tracing().stop(new Tracing.StopOptions().setPath(Paths.get("trace.zip")));
-
-
-
         }
     }
 }
